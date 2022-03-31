@@ -9,7 +9,8 @@ console.log(result);
 
 
 
-let number = 98;
+
+/*let number = 98;
 
 let secondDigit = number % 10;
 let firstDigit = number / 10;
@@ -28,7 +29,7 @@ let b = 40;
 
 console.log(a, b);
 
-
+*/
 
 
 
