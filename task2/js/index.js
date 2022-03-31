@@ -53,9 +53,9 @@ if (count >= 90 && count <=100) {
 		break;
 	if (userNum === 0) console.log("Выход из программы");	
 		break;
-		
-
 }
+	
+
 
 
 
@@ -63,8 +63,9 @@ let plates = parseInt(prompt("Введите количество немытых
 let fairy = parseInt(prompt("Введите количество моющего средства: "));
 
 while (plates > 0 && fairy > 0) {
-	plates--; fairy-0.5;
+	plates--; 
+	fairy=fairy-0.5;
 	console.log(`Остаток моющего средства: ${fairy}`);
-	if (plates === 0 || fairy === 0) console.log(`Остаток тарелок: ${plates}, остаток моющего средства: ${fairy}`);
+	
 }
-
+if (plates === 0 || fairy === 0) console.log(`Остаток тарелок: ${plates}, остаток моющего средства: ${fairy}`);
