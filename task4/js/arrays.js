@@ -27,3 +27,16 @@ console.log(randomNums);
  
 [randomNums[min], randomNums[max]] = [randomNums[max], randomNums[min]]
 console.log(randomNums);
+
+
+
+let array = [5, 89, 0, 56, 35, 27, -98, 23];
+
+while (true) {
+	let input = +prompt("Введите любое целое число или 0 для выхода");
+	if (input === 0) break;
+	if (!array.includes(input, 0)) array.push(input);
+	// else +prompt("Вы ввели некорретные данные или данное число уже используется. Введите целое число."); - этот пункт не совсем корректно работает
+	
+}
+console.log(array);
