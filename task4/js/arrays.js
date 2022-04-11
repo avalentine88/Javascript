@@ -17,7 +17,7 @@ let randomNums = [];
 
 for (let i = 1; i <= 7; i++) {
 	
-	let num = Math.round(Math.random() * 295);	
+	let num = Math.round(5 + Math.random() * 295);	
 	randomNums.push(num);
 }
 console.log(randomNums);
@@ -36,7 +36,7 @@ while (true) {
 	let input = +prompt("Введите любое целое число или 0 для выхода");
 	if (input === 0) break;
 	if (!array.includes(input, 0)) array.push(input);
-	// else +prompt("Вы ввели некорретные данные или данное число уже используется. Введите целое число."); - этот пункт не совсем корректно работает
+	else console.log("Вы ввели некорретные данные или данное число уже используется. Введите целое число.");
 	
 }
 console.log(array);
