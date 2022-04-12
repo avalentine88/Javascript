@@ -36,3 +36,19 @@ let presents = ["книга", "ручка", "блокнот", "дождевик"
 
 presents.sort(() => Math.random() - 0.5);
 console.log(presents);
+
+
+
+let numbers = [
+    [0, 89, 444, 512, 0, -33, 200, 15],
+    [4, 89, 12, 0, -33],
+    [14, 170, -330],
+    [44, 2, 56, -88],
+    [4, 89, 45, 12, 0, -33, 90],
+    [5, -12, 87, 67, -22, 111]
+];
+
+numbers.sort(function(a, b) {
+  return a.length - b.length;
+});
+console.log(numbers);
