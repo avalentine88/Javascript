@@ -22,4 +22,9 @@ let temperatures = [
     }
 
 
- 
+
+let first = ["Апрель", "Июль", "Октябрь", "Май"],
+    second = ["Май", "Январь", "Декабрь", "Октябрь"];
+
+let newArr = first.filter(item => second.includes(item));
+console.log(newArr);
