@@ -1,7 +1,6 @@
 "use strict";
 
 
-
 function range(start, end, step = 1) {
 	let array = [];
 	
@@ -16,3 +15,4 @@ return array;
 
 }
 console.log(range(1, 12, -2));
+
