@@ -71,3 +71,17 @@ function input(items, itemTitle, countToCart) {
 console.log(input(items, itemTitle, countToCart));
 
 
+ 
+ 
+function obj(items, from, to){
+let newObj = {};
+    for (let item in items) {
+       if (items[item].price >= from && items[item].price < to) 
+        newObj[item] = items[item];
+        
+    }
+     return newObj;
+}
+
+console.log(obj(items, 500, 1500));
+
